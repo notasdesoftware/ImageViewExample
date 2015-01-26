@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
+- (IBAction)btn1Click:(id)sender;
+- (IBAction)btn2Click:(id)sender;
+- (IBAction)btn3Click:(id)sender;
 
 @end
 

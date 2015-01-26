@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btn1Click:(id)sender {
+    self.imagen.image = [UIImage imageNamed:@"googleCar"];
+}
+
+- (IBAction)btn2Click:(id)sender {
+    self.imagen.image = [UIImage imageNamed:@"nissan"];
+}
+
+- (IBAction)btn3Click:(id)sender {
+    self.imagen.image = [UIImage imageNamed:@"ferrari"];
+}
 @end
